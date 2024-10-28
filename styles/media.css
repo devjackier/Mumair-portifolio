@@ -1,0 +1,177 @@
+@media (max-width: 1281px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .header__items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation__items {
+        display: flex;
+        flex-direction: column;
+        margin-right: 37px;
+    }
+
+    .header__items__item {
+        font-size: 15px;
+    }
+
+    .size__hi_dev {
+        width: 60%;
+    }
+
+    .section__apresentacao__text {
+        font-size: 17px;
+    }
+
+    .section__alig__left__apresentacao {
+        margin-left: 27px;
+    }
+
+    .imagem__dev {
+        width: 60%;
+    }
+
+    .detail__retangulo {
+        display: none;
+    }
+
+    .alig__redes {
+        display: flex;
+        align-items: center;
+        margin-right: 114px;
+    }
+
+    .bocaaberta__img {
+        width: 60%;
+    }
+
+    .retangulo__detail__item {
+        display: none;
+    }
+
+    .about__item {
+        font-size: 60px;
+    }
+
+    .parag__item {
+        font-size: 19px;
+    }
+
+    .skills__graphic {
+        width: 100%;
+    }
+
+    .align__segunda__section {
+        display: flex;
+        align-items: center;
+    }
+
+    .align__elements__aboutme {
+        margin-right: 60px;
+    }
+
+    .size__projects {
+        width: 20%;
+    }
+
+    .style__list__footer {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__items {
+        margin-left: 24px;
+    }
+
+    .alig__elements {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 160px;
+    }
+
+    .header__items__item {
+        font-size: 18px;
+    }
+
+    .size__hi_dev {
+        width: 75%;
+    }¨
+
+    .imagem__dev {
+        width: 84%;
+    }
+
+    .align__redes__links {
+        margin-right: 140px;
+    }
+
+    .bocaaberta__img {
+        display: none;
+    }
+
+    .section__apresentacao__text {
+        font-size: 15px;
+        margin-left: 22px;
+    }
+
+    .hire__me {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        margin-left: 104px;
+    }
+
+    .align__elements__aboutme {
+        margin-left: 100px;
+    }
+
+    .parag__item {
+        font-size: 15px;
+    }
+
+
+    .services__text {
+        font-size: 19px;
+        width: 700px;
+    }
+
+    .testimonials__tittle__text {
+        font-size: 20px;
+    }
+
+    .testimonials__tittle {
+        font-size: 34px;
+    }
+
+    .grid__aplication {
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+    }
+
+    .img__teste {
+        width: 70%;
+    }
+
+    .title__lets {
+        font-size: 34px;
+    }
+
+
+    .parag__lets {
+        font-size: 18px;
+    }
+
+    .style__list__footer {
+        font-size: 14px;
+    }
+}

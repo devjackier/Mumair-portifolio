@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-laranja: #FD6F00;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    margin-top: 61px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__items__item {
+    font-size: 21px;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.header__align__button {
+    display: flex;
+    align-items: center;
+}
+
+.header__button {
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 17px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: var(--cor-laranja);
+}
+
