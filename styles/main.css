@@ -1,3 +1,17 @@
+:root {
+    --bg-color: #fff;
+    --font-color: #000;
+}
+
+.dark-mode {
+    --bg-color: #444242;
+    --font-color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
 
 
 .alig__elements {
@@ -122,6 +136,7 @@
     padding: 20px;
     width: 260px;
     border-radius: 7px;
+    color: black;
 }
 
 .tittle__card {
@@ -143,7 +158,7 @@
 
 .myprojects {
     font-size: 65px;
-    color: #1E1E1E;
+    color: var(--font-color);
 }
 
 .parag__projects {
@@ -162,7 +177,7 @@
 
 .style__list__projects {
     text-decoration: none;
-    color: black;
+    color: var(--font-color);
     background-color: transparent;
     font-size: 21px;
     font-family: "Poppins", sans-serif;

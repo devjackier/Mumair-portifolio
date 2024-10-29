@@ -31,8 +31,8 @@ body {
     font-size: 21px;
     padding: 4px;
     text-decoration: none;
-    color: black;
     font-family: "Poppins", sans-serif;
+    color: var(--font-color);
 }
 
 .header__align__button {
